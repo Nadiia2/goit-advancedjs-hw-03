@@ -4,22 +4,15 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Homework 10</title>
+    <title>Homework 11</title>
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
-    <header class="header">
-      <nav class="nav">
-        <ul class="nav-list">
-          <li class="nav-item">
-            <a href="./1-timer.html" class="nav-link">Timer</a>
-          </li>
-
-          <li class="nav-item">
-            <a href="./2-snackbar.html" class="nav-link">Snackbar</a>
-          </li>
-        </ul>
-      </nav>
-    </header>
-  </body>
+    <form class="form">
+    <input type="text" class="input" name="input" placeholder="Search images..." />
+    <button type="submit" class="button">Search</button>
+  </form>
+  <ul class="gallery"></ul>
+  <p class="loader hidden-loader">Searching images, please wait...</p>
+  <script type="module" src="./main.js"></script>
 </html>
